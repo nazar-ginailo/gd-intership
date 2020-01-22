@@ -36,7 +36,7 @@ xdescribe('Make a person', () => {
         expect(bob.getFullName()).toBe('Haskell Ross');
     });
 
-    test('bob.getFullName() should return "Haskell Ross" after bob.setLastName("Curry")', () => {
+    test('bob.getFullName() should return "Haskell Curry" after bob.setLastName("Curry")', () => {
         bob.setLastName('Curry');
         expect(bob.getFullName()).toBe('Haskell Curry');
     });

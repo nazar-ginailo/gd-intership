@@ -16,4 +16,8 @@ xdescribe('reverse-string', () => {
     test('reverseString("Greetings from Earth") should return "htraE morf sgniteerG"', () => {
         expect(reverseString('Greetings from Earth')).toBe('htraE morf sgniteerG');
     });
+
+    test('reverseString("foo bañana mañana") should return "anañam anañb oof"', () => {
+        expect(reverseString('foo bañana mañana')).toBe('anañam anañab oof');
+    });
 });

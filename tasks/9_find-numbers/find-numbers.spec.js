@@ -8,4 +8,8 @@ xdescribe('find-numbers', () => {
     test('getNumbers(‘Hell0, fuck1ng, w0rld’) should return [0, 1, 0]', () => {
         expect(getNumbers('Hell0, fuck1ng, w0rld')).toEqual([0, 1, 0]);
     });
+
+    test('getNumbers(‘s123d’) should return [123]', () => {
+        expect(getNumbers('s123d')).toEqual([123]);
+    });
 });
