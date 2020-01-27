@@ -1,6 +1,6 @@
-// import { nextInLine } from './stand-in-line';
+import { nextInLine } from './stand-in-line';
 
-xdescribe('stand-in-line', () => {
+describe('stand-in-line', () => {
     test('nextInLine([], 1) should return 1', () => {
         expect(nextInLine([], 1)).toBe(1);
     });
@@ -15,9 +15,9 @@ xdescribe('stand-in-line', () => {
 
     test('After nextInLine(testArr, 10), testArr[4] should return 10', () => {
         const testArr = [1, 2, 3, 4, 5];
-        
+
         nextInLine(testArr, 10);
-        
+
         expect(testArr[4]).toBe(10);
     });
 });
