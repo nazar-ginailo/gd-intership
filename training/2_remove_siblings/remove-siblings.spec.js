@@ -1,5 +1,3 @@
-// import fs from 'fs';
-// import path from 'path';
 // import { removeSiblings } from './remove-siblings';
 
 xdescribe('removeSiblings', () => {
