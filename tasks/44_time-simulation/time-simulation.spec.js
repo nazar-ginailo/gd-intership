@@ -2,7 +2,7 @@
 
 xdescribe('time-simulation', () => {
     let sim = new SimTime();
-    
+
     test(`time should be counted from zero`, () => {
         expect(sim.get()).toBe(0);
     });
